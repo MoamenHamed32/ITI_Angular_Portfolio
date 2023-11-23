@@ -1,1 +1,89 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "~node_modules/boxicons/css/boxicons.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 3.25rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.section-title {
+  margin-bottom: 4rem;
+}
+
+.section-title .title-header {
+  background-color: #8b8b8bc1;
+  padding: 0.3rem 0.7rem;
+  width: 120px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.section-title h2 {
+  padding: 1.7rem !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(40, 40, 40, 0.676);
+  line-height: 1.8rem;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.logo {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: black;
+}
